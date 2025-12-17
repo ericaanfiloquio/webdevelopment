@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 Front-End</title>
+
+    <link rel="stylesheet" href="/css/style.css"> <!--Esse link liga o html a pasta css-->
+
+</head>
+
+<body>
+    <h1>Aula 1 Desenvolvimento Web</h1>
+    <h2>Primeiros passos</h2>
+    <h3>Aula Facint</h3>
+    <h4>Tag semântica</h4>
+    <h5></h5>
+    <h6></h6>
+
+    <style>
+        header {
+            font-size: 12px
+        }
+
+    </style>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">QUEM SOMOS</a></li>
+                <li><a href="#">PRODUTOS</a></li>
+                <li><a href="#">CONTATOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Criando um link e pegando imagem de dentro de um projeto-->
+        <a href="https://www.google.com.br"> <img src="https://s.aficionados.com.br/imagens/o-coracao-de-hogwarts-7-razoes-para-admirar-a-casa-lufa-lufa_f.jpg" alt="Casa Lufa-lufa, representada pelo animal texugo, na cor amarela"></a>
+
+        <!--Criando um link e pegando imagem de dentro do projeto-->
+        <a href="https://youtube.com"><img src="\img\hogwarts.jpg" alt="Hogwarts - the school"></a>
+        <br>
+        <!--Quando queremos que o link direcione pra outra tab-->
+        <a href="https://youtube.com" target="_blank">Instagram</a>
+
+        <h2 style="color: blueviolet;">Lista de compras</h2>
+        <ul type="square"> <!--comentário no html é assim. ul é o comando pra abrir lista: Unordered List type="" square, disc, circle-->
+            <li> <!--list item--> Ovos</li>
+            <li> <!--Alt + Shift + seta pra baixo: ele repete a mesma linha--> Cenoura</li>
+            <li>Banana</li>
+            <li>Leite</li>
+            <li>Macarrao</li>
+        </ul>
+        <br>
+
+        <h2 style="color: rgb(218, 94, 94);"> Outra lista aleatoria</h2>
+        <ol type="a"><!--Ordered list type="" A, a, I, i--> 
+            <li>Papel Higienico</li>
+            <li>Escova</li>
+            <li>Esmalte</li>
+            <li>Acetona</li>
+
+        </ol>
+
+
+
+        <article>
+            <strong>Érica Fernandes Anfilóquio</strong> <br> <br>
+            <hr>
+            <em>Letra itálica</em>
+            <p>
+                Aqui <strong>coloco o conteúdo do meu artigo.</strong> Essas são tags semânticas: <u>header, main.</u>
+            </p>
+
+
+        </article>
+    </main>
+    <section>
+        Aqui consigo dividir meu conteúdo além do artigo acima.
+        <br> <!--Vai num video do youtube, clica com o botao direito em cima do video, Copy embed code, ou Copiar codigo de incorporacao-->
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/Z9H1WhPAtEc" title="O VERDADEIRO MOTIVO DE GOSTARMOS DE TRABALHAR EM POMARES NA NOVA ZELÂNDIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        rodapé, onde geralmente vai links: trabalhe conosco, e tals.
+    </footer>
+
+</body>
+
+</html>
