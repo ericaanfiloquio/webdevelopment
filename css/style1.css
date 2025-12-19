@@ -51,6 +51,25 @@ body {
 
 }
 
+
+.post {
+    max-width: 1500px;
+    background-color: rgb(226, 199, 234);
+    margin: auto;
+    padding: 25px;
+    box-shadow: 2px 2px 5px 0.2px gray;
+    border-radius: 5px;
+
+}
+
+.img-paisagem {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+
 .exemplo {
     background-color: rgb(209, 185, 231);
     width: 300px;
@@ -76,9 +95,3 @@ body {
     color:rgb(76, 75, 75)
 }
 
-.post {
-    width: 700px;
-    margin: 20px auto 0 auto;
-    align-items: center;
-    justify-content: center;
-}
